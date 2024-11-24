@@ -1,0 +1,70 @@
+## In this file you'll uncomment what you need and comment on what you don't need
+## To work with .editorconfig in IDE, you need a plugin for the corresponding IDE, 
+## which can be downloaded from https://editorconfig.org.
+
+# EditorConfig is awesome: https://editorconfig.org
+
+# top-most EditorConfig file
+# Корневой файл EditorConfig
+# Специальная настройка, которая должна быть на самом верху конфига. 
+# Если установлена в true, парсер не будет искать другие конфиги родительских папках
+root = true
+
+# Unix-style newlines with a newline ending every file
+# Для всех файлов используем unix-совместимые переносы строк
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Matches multiple files with brace expansion notation
+# Соответствует нескольким файлам с нотацией раскрытия фигурных скобок
+# [*.{js,py}]
+# Set default charset
+# Установить кодировку по умолчанию
+charset = utf-8
+
+# 4 space indentation
+# Отступы в 4 пробела
+# [*.{go,py,rb,php}]
+# indent_style = space
+# indent_size = 4
+
+# Tab indentation (no size specified)
+# Используем табы для отступов (Не указываем размер)
+# [*.js]
+# indent_style = tab
+
+# Indentation override for all JS under lib directory
+# Перезависываем настройку отступов для js файлов в папке lib
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+# Set formatting for JS and CSS
+# Задаем форматирование для JS и CSS
+[*.{js,css}]
+indent_style = space
+indent_size = 2
+# But we don't reformat minified JS and CSS files
+# Но не переформатируем минифицированные JS и CSS файлы
+[*.min.*]
+indent_style = ignore
+trim_trailing_whitespace = false
+insert_final_newline = ignore
+
+# Matches the exact files either package.json, .travis.yml and .md
+# Только для файлов package.json, .travis.yml и .md
+[{package.json,.travis.yml,.md}]
+indent_style = space
+indent_size = 2
+
+# set to true to ensure file ends with 
+# a newline when saving and false to ensure it doesn't.
+# В конце файла добавить пустую строку
+insert_final_newline = true
+
+# Trim_trailing_whitespace: set to true to remove
+# any whitespace characters preceding newline characters
+# and false to ensure it doesn't.
+# Позволяет убрать пробелы из концов строк.
+trim_trailing_whitespace = true
