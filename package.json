@@ -14,6 +14,8 @@
   "homepage": "https://github.com/dobkir/simple_website_template_using_7-1_SASS#readme",
   "main": "index.js",
   "scripts": {
+    "start": "npm run html && npm run style",
+    "html": "html-validator layout",
     "style": "sass --watch stylesheets/style.scss stylesheets/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +23,8 @@
     "7-1-template",
     "sass-template",
     "website-template"
-  ]
+  ],
+  "devDependencies": {
+    "w3c-html-validator": "^1.8.2"
+  }
 }
