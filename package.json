@@ -1,0 +1,16 @@
+{
+  "name": "simple_website_template_using_7-1_sass",
+  "version": "1.0.0",
+  "description": "The template for creating a simple website based on the 7-1 SASS architecture pattern",
+  "author": "Pavel Kirillov <dobkir@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://dobkir.github.io/simple_website_template_using_7-1_SASS/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dobkir/simple_website_template_using_7-1_SASS"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
