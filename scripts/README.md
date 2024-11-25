@@ -1,4 +1,4 @@
-# JS directory
+# Scripts directory
 
 This directory contains the project functionality written in JavaScript.
 The main file (usually called `index.js`) should be the file in which all the js modules of the project are compiled.
