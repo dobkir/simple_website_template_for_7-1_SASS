@@ -4,14 +4,22 @@
   "description": "The template for creating a simple website based on the 7-1 SASS architecture pattern",
   "author": "Pavel Kirillov <dobkir@gmail.com>",
   "license": "MIT",
-  "homepage": "https://dobkir.github.io/simple_website_template_using_7-1_SASS/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dobkir/simple_website_template_using_7-1_SASS"
+    "url": "git+https://github.com/dobkir/simple_website_template_using_7-1_SASS.git"
   },
+  "bugs": {
+    "url": "https://github.com/dobkir/simple_website_template_using_7-1_SASS/issues"
+  },
+  "homepage": "https://github.com/dobkir/simple_website_template_using_7-1_SASS#readme",
   "main": "index.js",
   "scripts": {
     "style": "sass --watch stylesheets/style.scss stylesheets/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "keywords": [
+    "7-1-template",
+    "sass-template",
+    "website-template"
+  ]
 }
