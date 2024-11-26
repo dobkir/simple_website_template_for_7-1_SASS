@@ -13,10 +13,17 @@
   },
   "homepage": "https://github.com/dobkir/simple_website_template_using_7-1_SASS#readme",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "npm run html && npm run style",
     "html": "html-validator layout",
     "style": "sass --watch stylesheets/style.scss stylesheets/style.css",
+    "eslint": "npx eslint scripts/**",
+    "eslint-fix": "npx eslint scripts/** --fix",
+    "eslint-watch": "onchange \"scripts/**/*\" -- eslint \"scripts/**/*\"",
+    "prettier": "prettier . --check --ignore-unknown",
+    "prettier-fix": "prettier . --write",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -25,6 +32,15 @@
     "website-template"
   ],
   "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@eslint/json": "^0.8.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.12.0",
+    "onchange": "^7.1.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.81.0",
     "w3c-html-validator": "^1.8.2"
   }
 }
