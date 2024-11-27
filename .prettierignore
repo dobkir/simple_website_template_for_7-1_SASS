@@ -2,3 +2,5 @@
 **/node_modules
 **/package.json
 **/package-lock.json
+# Ignore all HTML files (Prettier has not yet resolved the problem of setting a space and slash at the end of an unpaired HTML tag)
+**/*.html
