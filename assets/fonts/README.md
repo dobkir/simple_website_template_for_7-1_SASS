@@ -1,42 +1,43 @@
 # Fonts directory
 
-This directory contains the project's local fonts.
+This directory contains the project's local fonts.<br>
 
-Note:
-"font-weight" can take one of nine numerical weight options:
+Note:<br>
+"font-weight" can take one of nine numerical weight options:<br>
 
-100: Thin;
-200: Extra Light (Ultra Light);
-300: Light;
-400: Normal;
-500: Medium;
-600: Semi Bold (Demi Bold);
-700: Bold;
-800: Extra Bold (Ultra Bold);
-900: Black (Heavy).
+- 100: Thin;<br>
+- 200: Extra Light (Ultra Light);<br>
+- 300: Light;<br>
+- 400: Normal;<br>
+- 500: Medium;<br>
+- 600: Semi Bold (Demi Bold);<br>
+- 700: Bold;<br>
+- 800: Extra Bold (Ultra Bold);<br>
+- 900: Black (Heavy).<br>
 
-All these numerical values ​​specify the font thickness from the thinnest to the thickest.
+All these numerical values ​​specify the font thickness from the thinnest to the thickest.<br>
 
-However, most system fonts now have only two thickness options: the regular normal (400) and the bold (700). Therefore, the other values ​​of the property are used less often.
+However, most system fonts now have only two thickness options: the regular normal (400) and the bold (700). Therefore, the other values ​​of the property are used less often.<br>
 
-In addition to the numerical values ​​listed above, "font-weight" can have two more relative values: bolder and lighter. These values ​​make the font bolder and thinner than the current or inherited value.
+In addition to the numerical values ​​listed above, "font-weight" can have two more relative values: bolder and lighter. These values ​​make the font bolder and thinner than the current or inherited value.<br>
 
-Эта директория содержит локальные шрифты проекта.
+Эта директория содержит локальные шрифты проекта.<br>
 
-Памятка:
-font-weight может принимать одно из девяти числовых вариантов насыщенности:
+Памятка:<br>
+font-weight может принимать одно из девяти числовых вариантов насыщенности:<br>
 
-100: Thin;
-200: Extra Light (Ultra Light);
-300: Light;
-400: Normal;
-500: Medium;
-600: Semi Bold (Demi Bold);
-700: Bold;
-800: Extra Bold (Ultra Bold);
-900: Black (Heavy).
-Все эти числовые значения задают степень толщины шрифта от самого тонкого до самого толстого.
+- 100: Thin;<br>
+- 200: Extra Light (Ultra Light);<br>
+- 300: Light;<br>
+- 400: Normal;<br>
+- 500: Medium;<br>
+- 600: Semi Bold (Demi Bold);<br>
+- 700: Bold;<br>
+- 800: Extra Bold (Ultra Bold);<br>
+- 900: Black (Heavy).<br>
 
-Но в большинстве системных шрифтов всё равно есть только два варианта толщины: обычный normal (400) и жирный bold (700). Поэтому и остальные значения свойства используются реже.
+Все эти числовые значения задают степень толщины шрифта от самого тонкого до самого толстого.<br>
 
-Кроме перечисленных выше числовых значений у font-weight может быть ещё два относительных значения: bolder и lighter. Эти значения делают шрифт жирнее и тоньше, чем текущее или унаследованное значение.
+Но в большинстве системных шрифтов всё равно есть только два варианта толщины: обычный normal (400) и жирный bold (700). Поэтому и остальные значения свойства используются реже.<br>
+
+Кроме перечисленных выше числовых значений у font-weight может быть ещё два относительных значения: bolder и lighter. Эти значения делают шрифт жирнее и тоньше, чем текущее или унаследованное значение.<br>
